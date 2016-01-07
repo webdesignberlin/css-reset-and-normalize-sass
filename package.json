@@ -1,22 +1,23 @@
 {
-  "name": "css-reset-and-normalize",
-  "version": "0.2.0",
-  "description": "A cleaned up combination of Eric Meyer's Reset CSS 2.0 and Nicolas Gallagher's normalize.css with some optional flavor.",
-  "author": "Simon Lepel <simbo@simbo.de> (http://simbo.de/)",
+  "name": "css-reset-and-normalize-sass",
+  "version": "0.1.0",
+  "description": "A cleaned up combination of Eric Meyer's Reset CSS 2.0 and Nicolas Gallagher's normalize.css with some optional flavor. Sass Version.",
+  "author": "Michael Gerstmann <> (http://micha.seiler-gerstmann.de)",
   "license": "MIT",
   "keywords": [
     "css",
     "reset",
     "normalize",
-    "stylus"
+    "sass",
+    "scss"
   ],
-  "homepage": "https://github.com/simbo/css-reset-and-normalize#readme",
+  "homepage": "https://github.com/webdesignberlin/css-reset-and-normalize#readme-sass",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simbo/css-reset-and-normalize.git"
+    "url": "git+https://github.com/webdesignberlin/css-reset-and-normalize-sass.git"
   },
   "bugs": {
-    "url": "https://github.com/simbo/css-reset-and-normalize/issues"
+    "url": "https://github.com/webdesignberlin/css-reset-and-normalize/issues"
   },
   "scripts": {
     "build": "gulp build",

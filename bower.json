@@ -1,17 +1,18 @@
 {
-  "name": "css-reset-and-normalize",
-  "description": "A cleaned up combination of Eric Meyer's Reset CSS 2.0 and Nicolas Gallagher's normalize.css with some optional flavor.",
+  "name": "css-reset-and-normalize-sass",
+  "description": "A cleaned up combination of Eric Meyer's Reset CSS 2.0 and Nicolas Gallagher's normalize.css with some optional flavor. Sass Version.",
   "authors": [
-    "Simon Lepel <simbo@simbo.de> (http://simbo.de/"
+    "Michael Gerstmann <>"
   ],
   "license": "MIT",
   "keywords": [
     "css",
     "reset",
     "normalize",
-    "stylus"
+    "sass",
+    "scss"
   ],
-  "homepage": "https://github.com/simbo/css-reset-and-normalize",
+  "homepage": "https://github.com/webdesignberlin/css-reset-and-normalize-sass",
   "main": [
     "css/flavored-reset-and-normalize.css",
     "css/reset-and-normalize.css"

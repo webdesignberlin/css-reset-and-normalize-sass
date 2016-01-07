@@ -1,7 +1,7 @@
 css-reset-and-normalize-sass
 ============================
 
-Sass Version of css-reset-and-normalize.
+Sass Version of css-reset-and-normalize (stylus original).
 
   > A cleaned up combination of Eric Meyer's
   > [*Reset CSS 2.0*](http://meyerweb.com/eric/tools/css/reset/)
@@ -9,7 +9,7 @@ Sass Version of css-reset-and-normalize.
   > [*normalize.css*](http://necolas.github.io/normalize.css/)
   > with some optional flavor. 
 
-[![npm Package Version](https://img.shields.io/npm/v/css-reset-and-normalize-scss.svg?style=flat-square)](https://www.npmjs.com/package/css-reset-and-normalize-scss)
+[![npm Package Version](https://img.shields.io/npm/v/css-reset-and-normalize-sass.svg?style=flat-square)](https://www.npmjs.com/package/css-reset-and-normalize-sass)
 [![MIT License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](LICENSE)
 
 <!-- MarkdownTOC -->
@@ -30,8 +30,8 @@ Sass Version of css-reset-and-normalize.
 
 Packages can be installed via [npm](https://www.npmjs.com/) or [bower](http://bower.io/):
 
-  - `npm install css-reset-and-normalize-scss`
-  - `bower install css-reset-and-normalize-scss`
+  - `npm install css-reset-and-normalize-sass`
+  - `bower install css-reset-and-normalize-sass`
 
 
 ## Usage

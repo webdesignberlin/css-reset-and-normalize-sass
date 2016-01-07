@@ -12,11 +12,11 @@ var autoprefixer = require('autoprefixer'),
     plumber = require('gulp-plumber'),
     runSequence = require('run-sequence'),
     sourcemaps = require('gulp-sourcemaps'),
-    stylus = require('gulp-stylus');
+    sass = require('gulp-sass');
 
 var paths = {
       cwd: __dirname,
-      stylus: path.join(__dirname, 'stylus'),
+      sass: path.join(__dirname, 'scss'),
       css: path.join(__dirname, 'css')
     },
     options = {
@@ -40,17 +40,17 @@ var paths = {
         includeContent: true,
         sourceRoot: '.'
       },
-      stylus: {
+      sass: {
         compress: false
       }
     };
 
 gulp.task('build:css', ['clean:css'], function() {
   return gulp
-    .src(path.join(paths.stylus, '*.styl'))
+    .src(path.join(paths.sass, '*.scss'))
     .pipe(plumber())
     .pipe(sourcemaps.init())
-    .pipe(stylus(options.stylus))
+    .pipe(sass(options.sass))
     .pipe(postcss([
       autoprefixer(options.autoprefixer),
       perfectionist(options.perfectionist)
@@ -71,7 +71,7 @@ gulp.task('clean:css', function(done) {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(path.join(paths.stylus, '**/*.styl'), ['build:css']);
+  gulp.watch(path.join(paths.sass, '**/*.scss'), ['build:css']);
 });
 
 gulp.task('build', function(done) {

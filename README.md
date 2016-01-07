@@ -1,5 +1,7 @@
-css-reset-and-normalize
-=======================
+css-reset-and-normalize-sass
+============================
+
+Sass Version of css-reset-and-normalize.
 
   > A cleaned up combination of Eric Meyer's
   > [*Reset CSS 2.0*](http://meyerweb.com/eric/tools/css/reset/)
@@ -98,4 +100,4 @@ some optional flavor…
 
 ## License
 
-[MIT &copy; Simon Lepel 2015](http://simbo.mit-license.org/)
+[MIT](LICENSE)

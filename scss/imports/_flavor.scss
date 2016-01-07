@@ -2,8 +2,9 @@
  * responsive viewport
  */
 
-@viewport
-  width: device-width
+@viewport {
+  width: device-width;
+}
 
 /**
  * inherit box model
@@ -11,8 +12,9 @@
 
 *,
 *::before,
-*::after
-  box-sizing: inherit
+*::after {
+  box-sizing: inherit;
+}
 
 /**
  * iOS "clickable elements" fix for role="button"
@@ -22,8 +24,9 @@
  * see https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
  */
 
-[role="button"]
-  cursor: pointer
+[role="button"] {
+  cursor: pointer;
+}
 
 /**
  * Avoid 300ms click delay on touch devices that support the `touch-action` CSS property.
@@ -45,8 +48,9 @@ input,
 label,
 select,
 summary,
-textarea
-  touch-action: manipulation
+textarea {
+  touch-action: manipulation;
+}
 
 /**
  * Always hide an element with the `hidden` HTML attribute (from PureCSS).

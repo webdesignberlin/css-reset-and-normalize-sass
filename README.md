@@ -9,8 +9,8 @@ Sass Version of css-reset-and-normalize.
   > [*normalize.css*](http://necolas.github.io/normalize.css/)
   > with some optional flavor. 
 
-[![npm Package Version](https://img.shields.io/npm/v/css-reset-and-normalize.svg?style=flat-square)](https://www.npmjs.com/package/css-reset-and-normalize)
-[![MIT License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://simbo.mit-license.org)
+[![npm Package Version](https://img.shields.io/npm/v/css-reset-and-normalize-scss.svg?style=flat-square)](https://www.npmjs.com/package/css-reset-and-normalize-scss)
+[![MIT License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](LICENSE)
 
 <!-- MarkdownTOC -->
 
@@ -30,16 +30,16 @@ Sass Version of css-reset-and-normalize.
 
 Packages can be installed via [npm](https://www.npmjs.com/) or [bower](http://bower.io/):
 
-  - `npm install css-reset-and-normalize`
-  - `bower install css-reset-and-normalize`
+  - `npm install css-reset-and-normalize-scss`
+  - `bower install css-reset-and-normalize-scss`
 
 
 ## Usage
 
-Sources are available in [stylus](http://stylus-lang.com/) or generated css 
+Sources are available in [scss](http://sass-lang.com/) or generated css 
 including minified versions.
 
-`<link…>` or `@import` the minified or unminified css version:
+`<link…>` ~~or `@import`~~ the minified or unminified css version:
 
   - `css/reset-and-normalize.min.css`
   - `css/reset-and-normalize.css`
@@ -49,10 +49,10 @@ Or with some [additional flavor](#optional-additional-flavor):
   - `css/flavored-reset-and-normalize.min.css`
   - `css/flavored-reset-and-normalize.css`
 
-Or `@require` the stylus versions:
+Or `@import` the stylus versions:
 
-  - `stylus/reset-and-normalize.styl`
-  - `stylus/flavored-reset-and-normalize.styl`
+  - `scss/reset-and-normalize.scss`
+  - `scss/flavored-reset-and-normalize.scss`
 
 
 ## Differences from Reset 2.0

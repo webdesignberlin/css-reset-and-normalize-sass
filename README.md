@@ -11,6 +11,7 @@ Sass Version of css-reset-and-normalize (stylus original).
 
 [![npm Package Version](https://img.shields.io/npm/v/css-reset-and-normalize-sass.svg?style=flat-square)](https://www.npmjs.com/package/css-reset-and-normalize-sass)
 [![MIT License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](LICENSE)
+[![Build Status](https://travis-ci.org/webdesignberlin/css-reset-and-normalize-sass.svg?branch=master)](https://travis-ci.org/webdesignberlin/css-reset-and-normalize-sass)
 
 <!-- MarkdownTOC -->
 

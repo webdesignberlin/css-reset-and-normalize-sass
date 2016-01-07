@@ -2,7 +2,7 @@
   "name": "css-reset-and-normalize-sass",
   "version": "0.1.0",
   "description": "A cleaned up combination of Eric Meyer's Reset CSS 2.0 and Nicolas Gallagher's normalize.css with some optional flavor. Sass Version.",
-  "author": "Michael Gerstmann <> (http://micha.seiler-gerstmann.de)",
+  "author": "Michael Gerstmann @top_webdesign (http://micha.seiler-gerstmann.de)",
   "license": "MIT",
   "keywords": [
     "css",

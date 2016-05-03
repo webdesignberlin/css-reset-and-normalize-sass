@@ -3,12 +3,7 @@
  * http://necolas.github.io/normalize.css/
  */
 
-// set var if not present
-@if variable-exists(with-flavor) {
-
-} @else {
-  $with-flavor: false;
-}
+$with-flavor: false !default;
 
 /**
  * 1. Set default font family to sans-serif.
